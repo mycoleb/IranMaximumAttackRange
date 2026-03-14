@@ -40,11 +40,13 @@ folium.GeoJson(
 
 # 7. Add California Marker for scale
 folium.Marker(
-    [34.0522, -118.2437], 
+    #optional Swidnica, Poland 50.8498° N, 16.4757° E
+    #Los Angeles coordinates
+    [34.0549, -118.2426], 
     popup="California (USA)",
     icon=folium.Icon(color='blue', icon='cloud')
 ).add_to(m)
 
 # 8. Save and finish
 m.save('iran_range_map.html')
-print("Success! Open iran_range_map.html in your browser to see the results.")
+print("Success! Open iran_range_map.html in your browser to see the results. Thank you for visiting my github github.com/mycoleb")
